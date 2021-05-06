@@ -1,41 +1,37 @@
-# MacOS Bubble Screensaver
-
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+# Retro Windows Screensaver for MacOS 
 
 ## Introduction
 
-* **Tested on MacOS Big Sur 11.1**
-* **Written in Swift 5.2**
+* **Tested on MacOS Big Sur 11.3.1**
+* **Written in Swift 5.4**
 
 ### Special thanks
 
-**This project is a latest refactor of [SwiftBubble](https://github.com/nemesit/SwiftBubble), open-sourced by [@nemesit](https://github.com/nemesit).** Many thanks to the great project!
+**This project is a written using [Bubble Screensaver](https://github.com/zzzDavid/bubble-screensaver), as a template** Many thanks to the great project!
 
-According to the original author, this screensaver is inspired by the MacBook 12" promotional video. I love this screensaver very much for quite a long time. But the original copy is not compatible with the latest MacOS Catalina/Big Sur anymore. So, I decided to refator this project in Swift 5.2.
+This screensaver is inspired by the old windows screensaver. I love retro screensavers and I found the [Bubble Screensaver](https://github.com/zzzDavid/bubble-screensaver) code by [zzzDavid](https://github.com/zzzDavid/) and decided to give it a go!!
 
-I used the higher-resolution video in the original repository, and updated video player and layout with the latest API.
 
 Anyway, please enjoy this screensaver.
-
 
 ## Preview
 
 <p align=center>
-  <img src=https://res.cloudinary.com/dxzx2bxch/image/upload/v1605814365/bubble_a9cecb.gif width=100%/>
+  <img src="https://media.giphy.com/media/WglYvrK09UbNCuYSuH/giphy.gif" width=100%/>
 </p>
-
 
 ## Compile
 
-This project is compiled with XCode 12.1. The entire XCode project is in the repo. If you would like to make changes, just clone it and compile with XCode 12, it should be fine.
+This project is compiled with XCode 12.5. The entire XCode project is in the repo. If you would like to make changes, just clone it and compile with XCode 12.5, it should be fine.
 
 ## Installation
 
-Check the latest release. Unzip file `bubble-screensaver.saver.zip` to get `bubble-screensaver.saver`, double click to install.
-
-
+Check the latest release. Unzip file `windows-screensaver.saver.zip` to get `windows-screensaver.saver`, double click to install.
+or to get the v1.0 release go here ~> [windows screensaver v1.0](https://github.com/Mik1337/windows-screensaver/releases/tag/v1.0).
 
 ## References
+
+## [Bubble Screensaver](https://github.com/zzzDavid/bubble-screensaver)
 
 [How to make a custom screensaver for Mac OS X](https://medium.com/better-programming/how-to-make-a-custom-screensaver-for-mac-os-x-7e1650c13bd8)
 
