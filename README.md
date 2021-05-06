@@ -7,7 +7,7 @@
 
 ### Special thanks
 
-**This project is a written using [Bubble Screensaver](https://github.com/zzzDavid/bubble-screensaver), as a template ** Many thanks to the great project!
+**This project is a written using [Bubble Screensaver](https://github.com/zzzDavid/bubble-screensaver), as a template** Many thanks to the great project!
 
 This screensaver is inspired by the old windows screensaver. I love retro screensavers and I found the [Bubble Screensaver](https://github.com/zzzDavid/bubble-screensaver) code by [zzzDavid](https://github.com/zzzDavid/) and decided to give it a go!!
 
