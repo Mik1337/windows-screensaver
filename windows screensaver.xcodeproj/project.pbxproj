@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25295A5326437A1B00CADDF3 /* windows_screensaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25295A5226437A1B00CADDF3 /* windows_screensaverView.h */; };
-		25295A5526437A1B00CADDF3 /* windows_screensaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25295A5426437A1B00CADDF3 /* windows_screensaverView.m */; };
+		25295A5E26437A6E00CADDF3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25295A5D26437A6E00CADDF3 /* main.swift */; };
+		25295A6226437AAD00CADDF3 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 25295A5F26437AAD00CADDF3 /* thumbnail.png */; };
+		25295A6326437AAD00CADDF3 /* windows-screensaver.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 25295A6026437AAD00CADDF3 /* windows-screensaver.mp4 */; };
+		25295A6426437AAD00CADDF3 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25295A6126437AAD00CADDF3 /* thumbnail@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25295A4F26437A1B00CADDF3 /* windows screensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "windows screensaver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25295A5226437A1B00CADDF3 /* windows_screensaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = windows_screensaverView.h; sourceTree = "<group>"; };
-		25295A5426437A1B00CADDF3 /* windows_screensaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = windows_screensaverView.m; sourceTree = "<group>"; };
 		25295A5626437A1B00CADDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25295A5C26437A6E00CADDF3 /* windows screensaver-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "windows screensaver-Bridging-Header.h"; sourceTree = "<group>"; };
+		25295A5D26437A6E00CADDF3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		25295A5F26437AAD00CADDF3 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		25295A6026437AAD00CADDF3 /* windows-screensaver.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "windows-screensaver.mp4"; sourceTree = "<group>"; };
+		25295A6126437AAD00CADDF3 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +53,12 @@
 		25295A5126437A1B00CADDF3 /* windows screensaver */ = {
 			isa = PBXGroup;
 			children = (
-				25295A5226437A1B00CADDF3 /* windows_screensaverView.h */,
-				25295A5426437A1B00CADDF3 /* windows_screensaverView.m */,
+				25295A5D26437A6E00CADDF3 /* main.swift */,
 				25295A5626437A1B00CADDF3 /* Info.plist */,
+				25295A5F26437AAD00CADDF3 /* thumbnail.png */,
+				25295A6126437AAD00CADDF3 /* thumbnail@2x.png */,
+				25295A6026437AAD00CADDF3 /* windows-screensaver.mp4 */,
+				25295A5C26437A6E00CADDF3 /* windows screensaver-Bridging-Header.h */,
 			);
 			path = "windows screensaver";
 			sourceTree = "<group>";
@@ -62,7 +70,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25295A5326437A1B00CADDF3 /* windows_screensaverView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +104,7 @@
 				TargetAttributes = {
 					25295A4E26437A1B00CADDF3 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -123,6 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25295A6226437AAD00CADDF3 /* thumbnail.png in Resources */,
+				25295A6326437AAD00CADDF3 /* windows-screensaver.mp4 in Resources */,
+				25295A6426437AAD00CADDF3 /* thumbnail@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25295A5526437A1B00CADDF3 /* windows_screensaverView.m in Sources */,
+				25295A5E26437A6E00CADDF3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +265,21 @@
 		25295A5A26437A1B00CADDF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "windows screensaver/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kaijulabs.windows-screensaver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "windows screensaver/windows screensaver-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -267,12 +287,20 @@
 		25295A5B26437A1B00CADDF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "windows screensaver/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kaijulabs.windows-screensaver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "windows screensaver/windows screensaver-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;

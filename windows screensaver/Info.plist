@@ -19,6 +19,6 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSPrincipalClass</key>
-	<string>windows_screensaverView</string>
+	<string>windows_screensaver.windows_screensaverView</string>
 </dict>
 </plist>
