@@ -1,4 +1,4 @@
-# MacOS Windows Screensaver
+# Retro Windows Screensaver for MacOS 
 
 ## Introduction
 
@@ -27,6 +27,7 @@ This project is compiled with XCode 12.5. The entire XCode project is in the rep
 ## Installation
 
 Check the latest release. Unzip file `windows-screensaver.saver.zip` to get `windows-screensaver.saver`, double click to install.
+or to get the v1.0 release go here ~> [windows screensaver v1.0](https://github.com/Mik1337/windows-screensaver/releases/tag/v1.0).
 
 ## References
 
